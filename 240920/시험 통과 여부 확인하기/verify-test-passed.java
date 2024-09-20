@@ -5,11 +5,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        if(n>80){
+        if(n>=80){
             System.out.print("pass");
         }
         else{
-            int k = 100-n;
+            int k = 80-n;
             System.out.printf("%d more score",k);
         }
     }
