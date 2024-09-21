@@ -11,6 +11,9 @@ public class Main {
                 int k1 = (k+1)/2;
                 System.out.print(k1);
             }
+            else{
+                System.out.print(k);
+            }
         }
         else{
             int q = (a+1)/2;
