@@ -30,7 +30,7 @@ public class Main {
             if(b>c){
                 System.out.println(b);
             }
-            else if(c>b){
+            else{
                 System.out.println(c);
             }
         }
