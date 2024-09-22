@@ -10,7 +10,7 @@ public class Main {
             if(f>=95){
                 System.out.println("100000");
             }
-            if(f>=90){
+            else if(f>=90){
                 System.out.println("50000");
             }
             else{
