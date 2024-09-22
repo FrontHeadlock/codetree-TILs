@@ -7,7 +7,7 @@ public class Main {
         int age = sc.nextInt();
 
         if(sex==0){
-            if(age>19){
+            if(age>=19){
                 System.out.print("MAN");
             }
             else{
@@ -15,7 +15,7 @@ public class Main {
             }
         }
         else if(sex==1){
-            if(age>19){
+            if(age>=19){
                 System.out.print("WOMAN");
             }
             else{
