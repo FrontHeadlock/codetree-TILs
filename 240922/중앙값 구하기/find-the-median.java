@@ -7,30 +7,12 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        if(a>b){
-            if(c>a){
-                System.out.println(a);
-            }
-            else if(c==a){
-                System.out.println(a);
-            }
-            else{
-                System.out.println(c);
-            }
-        }
-        else if(a==b){
+        if((a >= b && a <= c) || (a <= b && a >= c)) {
+            System.out.println(a);
+        } else if((b >= a && b <= c) || (b <= a && b >= c)) {
             System.out.println(b);
-        }
-        else if(a<b){
-            if(c>b){
-                System.out.println(b);
-            }
-            else if(c==b){
-                System.out.println(b);
-            }
-            else{
-                System.out.println(c);
-            }
-        }
+        } else {
+            System.out.println(c);
         }
     }
+}
