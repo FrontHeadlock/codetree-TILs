@@ -11,6 +11,9 @@ public class Main {
                 System.out.printf("%d",a);
             }
         }
+        else if(a<=0){
+            System.out.print(0);
+        }
 
     }
 }
