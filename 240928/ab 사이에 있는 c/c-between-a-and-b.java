@@ -10,16 +10,13 @@ public class Main {
         int cnt = 0;
         while(a<=b){
             if(a%c==0){
+                System.out.println("YES");
                 cnt++;
                 break;
             }
             a++;
         }
-        if(cnt==1){
-            System.out.println("YES");
-        }
-        else{
+        if(cnt==0)
             System.out.println("NO");
-        }
     }
 }
