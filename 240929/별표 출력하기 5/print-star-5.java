@@ -9,7 +9,7 @@ public class Main {
             for (int k = 1; k <= 4; k++) {
                 if (k <= i) {
                     for (int j = 1; j <= i; j++) {
-                        System.out.print("*");
+                        System.out.print("* ");
                     }
                     if (k < i) {
                         System.out.print(" ");
